@@ -1,0 +1,81 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #0f0f0f;
+}
+.company-name-container {
+    padding: 10px;
+}
+.nav-items > ul {
+    display: flex;
+}
+.nav-items > ul > a {
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+}
+.revenue-container {
+    margin: 10px 0px auto;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+  
+.registration-form {
+    display: flex;
+    flex-direction: column;
+}
+  
+.form-group {
+    margin-bottom: 15px;
+}
+  
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+  
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+.submit-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+  
+.submit-button:hover {
+    background-color: #0056b3;
+}
+  
+.form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+@media (max-width: 600px) {
+  .form-container {
+      padding: 10px;
+  }
+}  
